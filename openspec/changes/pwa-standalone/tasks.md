@@ -1,42 +1,42 @@
 ## 1. Extract Standalone HTML
 
-- [ ] 1.1 Copy app/templates/index.html to root directory as index.html
+- [x] 1.1 Copy app/templates/index.html to root directory as index.html
 - [ ] 1.2 Test standalone HTML opens correctly in browser
 - [ ] 1.3 Verify all functionality works without Flask server
 - [ ] 1.4 Verify localStorage operations work correctly
 
 ## 2. Create App Icons
 
-- [ ] 2.1 Create or download 192x192 PNG icon
-- [ ] 2.2 Create or download 512x512 PNG icon
-- [ ] 2.3 Save icons in root directory as icon-192.png and icon-512.png
-- [ ] 2.4 Verify icons are valid PNG files
+- [x] 2.1 Create or download 192x192 PNG icon
+- [x] 2.2 Create or download 512x512 PNG icon
+- [x] 2.3 Save icons in root directory as icon-192.png and icon-512.png
+- [x] 2.4 Verify icons are valid PNG files
 
 ## 3. Create PWA Manifest
 
-- [ ] 3.1 Create manifest.json in root directory
-- [ ] 3.2 Add required fields: name, short_name, display, start_url
-- [ ] 3.3 Add theme_color and background_color matching app design
-- [ ] 3.4 Add icons array with paths to 192x192 and 512x512 icons
-- [ ] 3.5 Link manifest in index.html <head> tag
-- [ ] 3.6 Validate manifest.json syntax
+- [x] 3.1 Create manifest.json in root directory
+- [x] 3.2 Add required fields: name, short_name, display, start_url
+- [x] 3.3 Add theme_color and background_color matching app design
+- [x] 3.4 Add icons array with paths to 192x192 and 512x512 icons
+- [x] 3.5 Link manifest in index.html <head> tag
+- [x] 3.6 Validate manifest.json syntax
 
 ## 4. Create Service Worker
 
-- [ ] 4.1 Create sw.js file in root directory
-- [ ] 4.2 Define cache version constant
-- [ ] 4.3 Implement install event to cache app shell files
-- [ ] 4.4 Implement activate event to clean up old caches
-- [ ] 4.5 Implement fetch event with cache-first strategy
-- [ ] 4.6 Add error handling for cache operations
+- [x] 4.1 Create sw.js file in root directory
+- [x] 4.2 Define cache version constant
+- [x] 4.3 Implement install event to cache app shell files
+- [x] 4.4 Implement activate event to clean up old caches
+- [x] 4.5 Implement fetch event with cache-first strategy
+- [x] 4.6 Add error handling for cache operations
 
 ## 5. Register Service Worker
 
-- [ ] 5.1 Add service worker registration script to index.html
-- [ ] 5.2 Register service worker after DOMContentLoaded
-- [ ] 5.3 Add error handling for registration failures
-- [ ] 5.4 Add console logging for registration status (optional)
-- [ ] 5.5 Ensure registration doesn't block app functionality
+- [x] 5.1 Add service worker registration script to index.html
+- [x] 5.2 Register service worker after DOMContentLoaded
+- [x] 5.3 Add error handling for registration failures
+- [x] 5.4 Add console logging for registration status (optional)
+- [x] 5.5 Ensure registration doesn't block app functionality
 
 ## 6. Test PWA Installation
 
@@ -65,18 +65,18 @@
 
 ## 9. Update Documentation
 
-- [ ] 9.1 Update README.md with PWA installation instructions
-- [ ] 9.2 Add instructions for opening directly in browser
-- [ ] 9.3 Add instructions for deploying to GitHub Pages
-- [ ] 9.4 Document "Add to Home Screen" process for iOS/Android
-- [ ] 9.5 Add note about HTTPS requirement for full PWA features
-- [ ] 9.6 Mark Flask version as deprecated or move to branch
+- [x] 9.1 Update README.md with PWA installation instructions
+- [x] 9.2 Add instructions for opening directly in browser
+- [x] 9.3 Add instructions for deploying to GitHub Pages
+- [x] 9.4 Document "Add to Home Screen" process for iOS/Android
+- [x] 9.5 Add note about HTTPS requirement for full PWA features
+- [x] 9.6 Mark Flask version as deprecated or move to branch
 
 ## 10. Clean Up and Finalize
 
-- [ ] 10.1 Remove or archive Flask app files (app.py, app/ directory)
-- [ ] 10.2 Update .gitignore if needed
-- [ ] 10.3 Remove Python dependencies from requirements.txt
+- [x] 10.1 Remove or archive Flask app files (app.py, app/ directory)
+- [x] 10.2 Update .gitignore if needed
+- [x] 10.3 Remove Python dependencies from requirements.txt
 - [ ] 10.4 Test final build on multiple browsers (Chrome, Safari, Firefox)
 - [ ] 10.5 Create GitHub release or tag for PWA version
 - [ ] 10.6 Verify existing localStorage data still works in new version
