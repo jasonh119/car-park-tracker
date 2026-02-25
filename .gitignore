@@ -25,5 +25,10 @@ flask-legacy/__pycache__/
 .DS_Store
 Thumbs.db
 
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
+
 # Development
 *.log
