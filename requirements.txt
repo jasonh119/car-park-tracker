@@ -1,1 +1,3 @@
-Flask==3.1.0
+# The Flask version of this app is archived in flask-legacy/.
+# The current app is a static PWA with no Python dependencies.
+# Flask==3.1.0

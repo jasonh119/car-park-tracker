@@ -9,9 +9,10 @@ venv/
 ENV/
 env/
 
-# Flask
+# Flask (legacy — archived in flask-legacy/)
 instance/
 .webassets-cache
+flask-legacy/__pycache__/
 
 # IDEs
 .vscode/
@@ -23,6 +24,11 @@ instance/
 # OS
 .DS_Store
 Thumbs.db
+
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
 
 # Development
 *.log

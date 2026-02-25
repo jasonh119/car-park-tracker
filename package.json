@@ -1,0 +1,27 @@
+{
+  "name": "car-park-tracker",
+  "version": "1.0.0",
+  "description": "A mobile-first Progressive Web App (PWA) to track where you parked your car (building and level). Fully offline-capable — install it on your home screen and use it without any server or internet connection.",
+  "main": "sw.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonh119/car-park-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jasonh119/car-park-tracker/issues"
+  },
+  "homepage": "https://github.com/jasonh119/car-park-tracker#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "serve": "^14.2.5"
+  }
+}
